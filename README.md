@@ -1,3 +1,5 @@
+![Logo](icon.png)
+
 # AsyncExCore
 Conversion of AsyncEx Library into .NET Core RC2
 
