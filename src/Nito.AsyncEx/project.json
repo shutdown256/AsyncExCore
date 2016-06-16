@@ -1,15 +1,16 @@
 ﻿{
   "version": "1.0.0-rc2-001",
   "authors": [ "Stephen Cleary", "Vladislav Richter" ],
-  "description": "Epic AsyncEx library converted to .NET Core RC2",
-  "projectUrl": "https://github.com/shutdown256/AsyncExCore",
+  "description": "Epic AsyncEx library converted to .NET Core RC2. The original project does not yet support RC2 (only RC1 in new modular packages).",
   "packOptions": {
+    "projectUrl": "https://github.com/shutdown256/AsyncExCore",
     "repository": { "url": "https://github.com/shutdown256/AsyncExCore" },
     "licenseUrl": "https://github.com/shutdown256/AsyncExCore/blob/master/src/Nito.AsyncEx/LICENSE",
     "summary": "Epic AsyncEx library converted to .NET Core RC2",
     "tags": [ "async", "asyncex", "core", "standard", "netstandard", "dotnet" ],
     "releaseNotes": "No guarantees, I just cloned the original library and hacked around it until it compiled.",
-    "owners": [ "Vladislav Richter" ]
+    "owners": [ "Vladislav Richter" ],
+    "iconUrl": "https://github.com/shutdown256/AsyncExCore/blob/master/icon.png?raw=true"
   },
 
   "title": "AsyncExCore",
