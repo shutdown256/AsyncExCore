@@ -1,13 +1,13 @@
-﻿using StudioMote.Components.AsyncEx.Internal;
+﻿using Nito.AsyncEx.Internal;
 using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Synchronous;
 
 // Original idea from Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/12/10266988.aspx
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// A mutual exclusion lock that is compatible with async. Note that this lock is <b>not</b> recursive!
     /// </summary>

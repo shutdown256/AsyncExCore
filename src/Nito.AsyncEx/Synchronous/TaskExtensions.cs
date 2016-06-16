@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx.Synchronous
+namespace Nito.AsyncEx.Synchronous
 {
     /// <summary>
     /// Provides synchronous extension methods for tasks.

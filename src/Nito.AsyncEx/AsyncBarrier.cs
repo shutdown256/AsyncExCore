@@ -1,13 +1,13 @@
 ﻿using System.Threading;
-using StudioMote.Components.AsyncEx.Internal;
+using Nito.AsyncEx.Internal;
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Synchronous;
 
 // Original idea by Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/11/10266932.aspx
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// An async-compatible barrier.

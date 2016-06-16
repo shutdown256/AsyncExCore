@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment
+namespace Nito.AsyncEx.Internal.PlatformEnlightenment
 {
     public static class SynchronizationContextEnlightenment
     {

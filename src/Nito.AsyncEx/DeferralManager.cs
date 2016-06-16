@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Manages the deferrals for a "command" event that may have asynchonous handlers.

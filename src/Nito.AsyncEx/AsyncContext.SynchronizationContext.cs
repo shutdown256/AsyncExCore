@@ -1,7 +1,7 @@
-﻿using StudioMote.Components.AsyncEx.Synchronous;
+﻿using Nito.AsyncEx.Synchronous;
 using System.Threading;
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     public sealed partial class AsyncContext
     {
         /// <summary>

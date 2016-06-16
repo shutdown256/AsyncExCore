@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 // Original idea by Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/11/10266930.aspx
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// An async-compatible countdown event.
     /// </summary>

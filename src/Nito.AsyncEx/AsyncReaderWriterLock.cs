@@ -1,14 +1,14 @@
-﻿using StudioMote.Components.AsyncEx.Internal;
+﻿using Nito.AsyncEx.Internal;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Synchronous;
 
 // Original idea from Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/12/building-async-coordination-primitives-part-7-asyncreaderwriterlock.aspx
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// A reader/writer lock that is compatible with async. Note that this lock is <b>not</b> recursive!
     /// </summary>

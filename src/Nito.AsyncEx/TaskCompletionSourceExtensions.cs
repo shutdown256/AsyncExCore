@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Internal;
+using Nito.AsyncEx.Internal;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Provides extension methods for <see cref="TaskCompletionSource{TResult}"/>.

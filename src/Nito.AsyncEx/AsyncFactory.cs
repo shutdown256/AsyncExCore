@@ -1,11 +1,11 @@
 ﻿using System.Threading;
-using StudioMote.Components.AsyncEx.Internal;
-using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Internal;
+using Nito.AsyncEx.Internal.PlatformEnlightenment;
+using Nito.AsyncEx.Synchronous;
 using System;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Provides asynchronous wrappers.

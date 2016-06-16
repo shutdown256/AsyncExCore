@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     public sealed partial class AsyncContext
     {

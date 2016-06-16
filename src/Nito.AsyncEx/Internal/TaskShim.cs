@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx.Internal
+namespace Nito.AsyncEx.Internal
 {
     internal static class TaskShim
     {

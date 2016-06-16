@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// A <see cref="Token"/> that may or may not also reference its own <see cref="CancellationTokenSource"/>. Instances of this type should always be disposed.

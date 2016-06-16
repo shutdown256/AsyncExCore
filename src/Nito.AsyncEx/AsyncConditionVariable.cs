@@ -1,11 +1,11 @@
-﻿using StudioMote.Components.AsyncEx.Internal;
+﻿using Nito.AsyncEx.Internal;
 using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Synchronous;
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// An async-compatible condition variable. This type uses Mesa-style semantics (the notifying tasks do not yield).
     /// </summary>

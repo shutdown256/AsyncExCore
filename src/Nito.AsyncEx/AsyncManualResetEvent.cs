@@ -1,11 +1,11 @@
 ﻿using System.Threading;
-using StudioMote.Components.AsyncEx.Internal;
+using Nito.AsyncEx.Internal;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
 // Original idea by Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/11/10266920.aspx
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// An async-compatible manual-reset event.
     /// </summary>

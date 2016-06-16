@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment
+namespace Nito.AsyncEx.Internal.PlatformEnlightenment
 {
     public sealed class BlockingQueue<T> : IDisposable
     {

@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Internal;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Internal;
+using Nito.AsyncEx.Synchronous;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// An async-compatible producer/consumer queue.

@@ -1,10 +1,10 @@
-﻿using StudioMote.Components.AsyncEx.Synchronous;
+﻿using Nito.AsyncEx.Synchronous;
 using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// Provides a context for asynchronous operations. This class is threadsafe.
     /// </summary>

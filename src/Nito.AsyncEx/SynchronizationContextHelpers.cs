@@ -1,8 +1,8 @@
-﻿using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
+﻿using Nito.AsyncEx.Internal.PlatformEnlightenment;
 using System;
 using System.Threading;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Provides helper types for <see cref="SynchronizationContext"/>.

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Internal;
+using Nito.AsyncEx.Internal;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Provides completed task constants.

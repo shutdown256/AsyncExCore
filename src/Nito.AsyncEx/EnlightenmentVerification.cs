@@ -1,6 +1,6 @@
-﻿using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
+﻿using Nito.AsyncEx.Internal.PlatformEnlightenment;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Verifies platform enlightenment.

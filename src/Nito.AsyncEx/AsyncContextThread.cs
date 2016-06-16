@@ -1,10 +1,10 @@
-﻿using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
+﻿using Nito.AsyncEx.Internal.PlatformEnlightenment;
 using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// A thread that executes actions within an <see cref="AsyncContext"/>.
     /// </summary>

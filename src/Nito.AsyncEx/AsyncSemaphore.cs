@@ -1,14 +1,14 @@
-﻿using StudioMote.Components.AsyncEx.Internal;
+﻿using Nito.AsyncEx.Internal;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Synchronous;
+using Nito.AsyncEx.Synchronous;
 
 // Original idea from Stephen Toub: http://blogs.msdn.com/b/pfxteam/archive/2012/02/12/10266983.aspx
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// An async-compatible semaphore. Alternatively, you could use <c>SemaphoreSlim</c> on .NET 4.5 / Windows Store.
     /// </summary>

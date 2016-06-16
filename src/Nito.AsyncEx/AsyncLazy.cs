@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using StudioMote.Components.AsyncEx.Internal;
+using Nito.AsyncEx.Internal;
 using System.Diagnostics;
 #if NONATIVETASKS
 using Microsoft.Runtime.CompilerServices;
@@ -8,7 +8,7 @@ using Microsoft.Runtime.CompilerServices;
 using System.Runtime.CompilerServices;
 #endif
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     /// <summary>
     /// Provides support for asynchronous lazy initialization. This type is fully threadsafe.
     /// </summary>

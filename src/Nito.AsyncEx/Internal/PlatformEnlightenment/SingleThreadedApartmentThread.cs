@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment
+namespace Nito.AsyncEx.Internal.PlatformEnlightenment
 {
     public sealed class SingleThreadedApartmentThread
     {

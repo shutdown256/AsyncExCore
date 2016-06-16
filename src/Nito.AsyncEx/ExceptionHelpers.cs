@@ -1,7 +1,7 @@
-﻿using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
+﻿using Nito.AsyncEx.Internal.PlatformEnlightenment;
 using System;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// Provides helper (non-extension) methods dealing with exceptions.

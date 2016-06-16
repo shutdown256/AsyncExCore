@@ -9,7 +9,7 @@ using Microsoft.Runtime.CompilerServices;
 using System.Runtime.CompilerServices;
 #endif
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     /// <summary>
     /// An awaitable wrapper around a task whose result is disposable. The wrapper is not disposable, so this prevents usage errors like "using (MyAsync())" when the appropriate usage should be "using (await MyAsync())".

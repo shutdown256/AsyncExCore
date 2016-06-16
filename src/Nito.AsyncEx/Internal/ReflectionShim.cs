@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace StudioMote.Components.AsyncEx.Internal
+namespace Nito.AsyncEx.Internal
 {
     internal static class ReflectionShim
     {

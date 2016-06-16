@@ -1,10 +1,10 @@
-﻿using StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment;
+﻿using Nito.AsyncEx.Internal.PlatformEnlightenment;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx {
+namespace Nito.AsyncEx {
     public sealed partial class AsyncContext
     {
         /// <summary>

@@ -1,8 +1,8 @@
-﻿using StudioMote.Components.AsyncEx.Internal;
+﻿using Nito.AsyncEx.Internal;
 using System;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx
+namespace Nito.AsyncEx
 {
     public static partial class AsyncFactory<TResult>
     {

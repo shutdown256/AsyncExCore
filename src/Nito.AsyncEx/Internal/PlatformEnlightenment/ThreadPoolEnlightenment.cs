@@ -3,7 +3,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 
-namespace StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment
+namespace Nito.AsyncEx.Internal.PlatformEnlightenment
 {
     public static class ThreadPoolEnlightenment
     {

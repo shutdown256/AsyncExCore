@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace StudioMote.Components.AsyncEx.Internal.PlatformEnlightenment
+namespace Nito.AsyncEx.Internal.PlatformEnlightenment
 {
     public static class AsyncEnlightenment
     {
