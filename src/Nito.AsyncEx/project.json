@@ -1,5 +1,18 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.0-rc2-001",
+  "authors": [ "Stephen Cleary", "Vladislav Richter" ],
+  "description": "Epic AsyncEx library converted to .NET Core RC2",
+  "projectUrl": "https://github.com/shutdown256/AsyncExCore",
+  "packOptions": {
+    "repository": { "url": "https://github.com/shutdown256/AsyncExCore" },
+    "licenseUrl": "https://github.com/shutdown256/AsyncExCore/blob/master/src/Nito.AsyncEx/LICENSE",
+    "summary": "Epic AsyncEx library converted to .NET Core RC2",
+    "tags": [ "async", "asyncex", "core", "standard", "netstandard", "dotnet" ],
+    "releaseNotes": "No guarantees, I just cloned the original library and hacked around it until it compiled.",
+    "owners": [ "Vladislav Richter" ]
+  },
+
+  "title": "AsyncExCore",
 
   "dependencies": {
     "NETStandard.Library": "1.5.0-rc2-24027"
@@ -15,6 +28,6 @@
         "System.Threading.ThreadPool": "4.0.10-rc2-24027"
       }
     },
-    "net451": {}
+    "net451": { }
   }
 }
